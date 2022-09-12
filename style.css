@@ -1,0 +1,28 @@
+.kor {
+    height: 100px;
+    max-width: 100px;
+    background-color: #bbb;
+    border-radius: 50%;
+    margin-right: 5px;
+    margin-bottom: 5px;
+    flex: 33%;
+    cursor: pointer
+}
+
+.kor:hover {
+    opacity: 80%;
+}
+
+main {
+    display: flex;
+    flex-wrap: wrap;
+    width: 400px;
+}
+
+.piros {
+    background-color: red;
+}
+
+.piros:hover {
+    opacity: 80%;
+}
